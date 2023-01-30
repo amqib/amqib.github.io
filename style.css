@@ -26,6 +26,7 @@ body{
 span{
     color: yellow;
 }
+
 .intro-sub-title{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -72,6 +73,8 @@ span{
 }
 .education{
     margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 .education ul li h3{
@@ -80,6 +83,8 @@ span{
 
 .experience{
     margin-top: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 .experience ul li h3{
