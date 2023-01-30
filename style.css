@@ -16,7 +16,8 @@ body{
 }
 
 .intro-title{
-    margin-top: 50%;
+    margin-top: 10%;
+    margin-left: 2.5%;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 
@@ -30,6 +31,24 @@ span{
     font-weight: 400;
     font-size: 15px;
     margin-top: 3%;
+    margin-left: 2.5%;
+}
+
+
+.about-me{
+    margin-top: 10%;
+    margin-left: 2.5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.card-body{
+    height: 100%;
+    width: auto;
+}
+
+.d-flex img{
+    align-self: center;
 }
 
 .porto-title{
@@ -39,10 +58,41 @@ span{
     font-weight: 700;
 }
 
+.cv{
+    margin-top: 2.5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.edu-cv{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 1%;
+}
+.education{
+    margin-top: 10%;
+}
+
+.education ul li h3{
+    font-size: 20px;
+}
+
+.experience{
+    margin-top: 5%;
+}
+
+.experience ul li h3{
+    font-size: 20px;
+}
+
+.skills{
+    margin-top: 5%;
+}
 .card{
     margin-top: 5%;
     display: inline-table;
-    border-radius: 15%;
+    border-radius: 5%;
     margin-left: 5%;
 }
 
