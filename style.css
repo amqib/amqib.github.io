@@ -63,32 +63,25 @@ span{
     margin-top: 2.5%;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    color: yellow;
+}
+.cv-details-top{
+    margin-top: 5%;
+}
+.cv-details{
+    margin-top: 3%;
 }
 
-.edu-cv{
+.cv-details ul li h6{
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 15px;
-    margin-top: 1%;
 }
-.education{
-    margin-top: 10%;
+
+.cv-details ul li h3{
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-}
-
-.education ul li h3{
-    font-size: 20px;
-}
-
-.experience{
-    margin-top: 5%;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-}
-
-.experience ul li h3{
-    font-size: 20px;
+    font-weight: 400;
 }
 
 .skills{
