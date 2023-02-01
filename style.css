@@ -3,13 +3,21 @@ html {
 }
 
 body{
-    background-color: #fafafa;
+    background-color: #eae2b7;
 }
+
 .navbar{
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
+.navbar-costum{
+    background-color: #eae2b7 !important;
+}
 .navbar-brand{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -24,10 +32,6 @@ body{
 
 }
 
-span{
-    color: yellow;
-}
-
 .intro-sub-title{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -39,9 +43,18 @@ span{
 
 .about-me{
     margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    color: #003049;
+}
+.about-me span, .porto-contact span{
+    color: #fcbf49;
+    
+}
+span{
+    color:#003049
 }
 
 .card-body{
@@ -53,24 +66,30 @@ span{
     align-self: center;
 }
 
-.porto-title{
-    margin-top: 30%;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-}
-
 .cv{
     margin-top: 2.5%;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: yellow;
+    color: #003049;
 }
 .cv-details-top{
-    margin-top: 5%;
+    margin-top: 0.5%;
 }
 .cv-details{
     margin-top: 3%;
+}
+
+
+.cv-card a, .porto-contact a, .modal-body a{
+    text-decoration: none;
+    color: #003049;
+}
+.cv-card a:hover{
+    color: #fcbf49 !important;
+}
+
+.fa-envelope, .fa-github, .fa-linkedin, .fa-medium{
+    color: #003049 !important;
 }
 
 .cv-details ul li h6{
@@ -85,34 +104,72 @@ span{
     font-weight: 400;
 }
 
+.modal-content{
+    background-color: #fafafa !important;
+}
+.bg-primary{
+    background-color: #003049 !important; 
+}
+.btn-costum{
+    background-color: #003049 !important;
+    color: #fafafa !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: small;
+}
 .skills{
     margin-top: 5%;
 }
-.card{
-    margin-top: 5%;
-    display: inline-table;
-    border-radius: 5%;
-    margin-left: 5%;
+
+.porto-title{
+    margin-top: 30%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
+.card{
+    border-radius: 5%;
+    background-color: #fafafa !important;
+}
+.list-group-item{
+    background-color: #fafafa !important;
+}
+
+.card-title{
+    margin-bottom: 1%;
+}
+
+.modal-body{
+    text-align: justify;
+}
+
+.modal-body img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    display: block;
+
+}
 .porto-contact{
     margin-top: 10%;
     text-align: center;
     margin-bottom: 5%;
 }
 
+.porto-contact a:hover{
+    color: #fcbf49 !important;
+}
+
 .porto-contact h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    color: #003049;
     
 }
 
 .contact{
     margin-top: 2%;
     margin-left: 10px;
-}
-
-.made-by{
-    font-size: 15px;
-    margin-right: 1%;
 }
